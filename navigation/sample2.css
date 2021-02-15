@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/** 2. メニューをホバーした時に下線ができる */
+.header2 {
+  display: flex;
+  justify-content: space-between;
+ 
+  background: #F3F0EA;
+  padding: 30px;
+  color: #707070;
+}
+
+.header2 .header-menu a {
+  text-decoration: none;
+  color: #707070;
+  padding: 0 10px;
+}
+
+.header2 .header-menu a:hover,
+.header2 .header-menu a.active {
+  border-bottom: 2px solid #FD5A5F;
+  padding-bottom: 10px;
+}
+
