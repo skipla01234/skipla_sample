@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/** 5. 横型のメニュー */
+.header5 {
+  display: flex;
+
+  background: #F3F0EA;
+  padding: 0 30px;
+  color: #707070;
+}
+
+
+.header5 .header-logo {
+  width: 100px;
+  height: auto;
+  margin: 10px 0;
+}
+
+.header5 .header-logo img {
+  max-width: 100%;
+}
+
+.header5 .header-menu div {
+  margin: 10px 0;
+}
+
+.header5 .header-menu a {
+  text-decoration: none;
+  color: #707070;
+}
+
+.header5 .top-image {
+  width: 100%;
+}
+.header5 .top-image img {
+  max-width: 100%;
+}
+
