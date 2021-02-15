@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header4 {
+  display: flex;
+  /* justify-contentをspace-betweenにしておくと、3つのdivを等間隔に配置する */
+  justify-content: space-between;
+  /* これで、ロゴの高さにメニューをあわせる */
+  align-items: center;
+
+  background: #F3F0EA;
+  padding: 30px;
+  color: #707070;
+}
+
+.header4 .header-logo {
+  width: 100px;
+  height: auto;
+}
+
+.header4 .header-logo img {
+  max-width: 100%;
+}
+
+.header4 .header-menu a {
+  text-decoration: none;
+  color: #707070;
+  padding: 0 10px;
+}
+
+.header4 .header-menu a:hover,
+.header4 .header-menu a.active {
+  border-bottom: 2px solid #FD5A5F;
+  padding-bottom: 10px;
+}
+
