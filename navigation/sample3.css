@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/** 3. ロゴが画像で高さを中央寄せ */
+.header3 {
+  display: flex;
+  justify-content: space-between;
+  /* これで、ロゴの高さにメニューをあわせる */
+  align-items: center;
+
+  background: #F3F0EA;
+  padding: 30px;
+  color: #707070;
+}
+
+.header3 .header-logo {
+  width: 100px;
+  height: auto;
+}
+
+.header3 .header-logo img {
+  max-width: 100%;
+}
+
+.header3 .header-menu a {
+  text-decoration: none;
+  color: #707070;
+  padding: 0 10px;
+}
+
+.header3 .header-menu a:hover,
+.header3 .header-menu a.active {
+  border-bottom: 2px solid #FD5A5F;
+  padding-bottom: 10px;
+}
+
