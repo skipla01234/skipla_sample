@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+/** 1. 一般的なヘッダー */
+.header1 {
+  /* divを横並びにして、.header-logoと.header-menuを等間隔に左右に配置*/
+  display: flex;
+  justify-content: space-between;
+
+  background: #F3F0EA;
+  padding: 30px;
+  color: #707070;
+}
+
+.header1 .header-menu a {
+  text-decoration: none;
+  color: #707070;
+  padding: 0 10px;
+}
